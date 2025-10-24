@@ -21,12 +21,15 @@ database: "{{ target.database }}"
 schema: "{{ target.schema }}"
 
 In questo modo il progetto resta portabile tra ambienti diversi (dev, test, prod).
+
 3️⃣ Modelli di staging (/models/staging)
 Contengono la logica di confronto tra t0 e t1:
 scd1_stores_stg.sql → implementa la SCD1, dove i dati vengono aggiornati senza mantenere lo storico.
 scd3_products_stg.sql → implementa la SCD3, dove si mantiene sia il valore corrente che il precedente (es. price_current e price_previous).
+
 4️⃣ Modelli finali (/models/final)
 Raccolgono i risultati unificati e pronti per l’analisi, derivati dagli staging.+
+
 5️⃣ dbt Configuration
 Il progetto è configurato con:
 profile.yml collegato a Snowflake (ruolo dedicato MY_DBT_ROLE)
