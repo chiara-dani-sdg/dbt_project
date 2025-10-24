@@ -4,6 +4,7 @@ Questo progetto dimostrativo utilizza dbt (Data Build Tool) per gestire e storic
 L’obiettivo è mostrare come implementare le logiche di Slowly Changing Dimensions (SCD) di tipo 1 e 3, partendo da sorgenti simulate (file CSV caricati con dbt seed) e trasformandole in modelli di staging e modelli finali.
 
 ⚙️ Struttura del progetto
+
 1️⃣ Dati sorgente (/data)
 Sono presenti quattro file CSV che rappresentano due use case:
 SCD3 – Prodotti di lusso
