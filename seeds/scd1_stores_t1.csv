@@ -1,0 +1,5 @@
+﻿store_id,store_name,city,country,change_flag
+1,Louis Vuitton Milano Duomo,Milano,Italy,UPDATED
+2,Louis Vuitton Paris Vendôme,Paris,France,UNCHANGED
+3,Louis Vuitton Tokyo Ginza,Tokyo,Japan,UNCHANGED
+4,Louis Vuitton New York Fifth Avenue,New York,USA,NEW

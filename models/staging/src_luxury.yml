@@ -1,0 +1,11 @@
+﻿version: 2
+
+sources:
+  - name: luxury_data
+    database: "{{ target.database }}"
+    schema: "{{ target.schema }}"
+    tables:
+      - name: scd3_products_t0
+      - name: scd3_products_t1
+      - name: scd1_stores_t0
+      - name: scd1_stores_t1

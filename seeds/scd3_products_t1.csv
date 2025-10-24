@@ -1,0 +1,5 @@
+﻿product_id,product_name,category,price,country,change_flag
+1,Capucines MM,Handbag,5800,France,UPDATED
+2,Keepall Bandoulière 55,Travel,2500,Italy,UNCHANGED
+3,Luxury Trainer,Shoes,950,France,UNCHANGED
+5,Twist MM,Handbag,4200,France,NEW
